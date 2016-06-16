@@ -1,7 +1,7 @@
 ## Application Strings
 This is a minimal arduino sketch type example that demonstrates a method to maintain strings within an arduino core esp8266 project. This code has been tested on an esp8266 however it should also work on any arduino board with minimal change.
 
-There are many small pieces of sample code available all over the internet for esp8266 boards and many arduino type boards that show strings embedded strings directly within C/C++ and arduino sketch code.
+There are many small pieces of sample code available all over the internet for esp8266 boards and many arduino type boards that show strings embedded directly within C/C++ and arduino sketch code.
 
 Quite often (almost always?) no passing comment about how bad an idea this can be is mentioned. For very small projects this might not pose a problem at all however as a project grows over time from small to medium and onto large, many directly embedded string literals can start to become an issue in two primary ways:
 
