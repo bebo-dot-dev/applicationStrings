@@ -20,7 +20,7 @@ As an added benefit this example also demostrates how to use the compiler pre-pr
 2. All strings defined in the string table get defined in an array of all strings correctly setup for PROGMEM storage
 3. An enumeration is code generated from the string table so that each string defined gets an enum value assigned. This feature facilitates pulling individual strings from PROGMEM flash using an easy to use string helper function that takes a corresponding string specific enum value.
 
-The back story related to this repo is here: https://jjssoftware.github.io/string-optimization/
+The back story related to this repo is here: https://bebo-dot-dev.github.io/string-optimization/
 
 ## Pre-processor generated code output
 As a bonus and to see what code the pre-processor is actually generating, you can add the -E option to gcc which will tell gcc to "Stop after the preprocessing stage; do not run the compiler proper. The output is in the form of preprocessed source code, which is sent to the standard output." In real terms with the esp8266, this means that .o object files will be created but not compiled to byte code which means you can then look at the code within the .o file(s) to see what the pre-processor did. 
